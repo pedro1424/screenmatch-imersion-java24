@@ -8,7 +8,7 @@ public class Main {
         System.out.println("   ");
 
         //System.out.println("Pelicula The Avengers");
-
+        int i=0;
         int fechaDeLanzamiento = 2015;
         double evaluacion = 4.6;
         boolean incluidoenBasico = true;
@@ -37,10 +37,21 @@ public class Main {
 
         for (int i = 0; i < 3 ; i++) {
             Scanner teclado = new Scanner(System.in);
-            System.out.println("Ingrese una nota a Matrix");
+            System.out.println("Ingrese una nota a The avengers: ");
             double notaMovie= teclado.nextDouble();
             mediaevualateuser = mediaevaluacion + notaMovie;
         }
+
+        /*
+        while (i < 3) {
+            System.out.println("Ingrese una nota a The avengers: ");
+            Scanner teclado = new Scanner(System.in);
+            double notaMovie = teclado.nextDouble();
+            mediaevaluacion += notaMovie;
+            i++;
+        }
+        */
+
         System.out.println("Media de la pelicula" +
                 "The avengers es: " + mediaevualateuser/3);
 
@@ -49,5 +60,3 @@ public class Main {
 
     }
 }
-
-
