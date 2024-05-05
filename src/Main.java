@@ -4,11 +4,11 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         System.out.println("   ");
-        System.out.println("BIENVENIDOS a immersion en JAVA");
+        System.out.println("BIENVENIDOS a Immersion en JAVA");
         System.out.println("   ");
 
-        //System.out.println("Pelicula The Avengers");
-        int i=0;
+        System.out.println("Pelicula The Avengers");
+        //int i=0;
         int fechaDeLanzamiento = 2015;
         double evaluacion = 4.6;
         boolean incluidoenBasico = true;
@@ -39,7 +39,7 @@ public class Main {
             Scanner teclado = new Scanner(System.in);
             System.out.println("Ingrese una nota a The avengers: ");
             double notaMovie= teclado.nextDouble();
-            mediaevualateuser = mediaevaluacion + notaMovie;
+            mediaevualateuser = mediaevualateuser + notaMovie;
         }
 
         /*
@@ -52,7 +52,7 @@ public class Main {
         }
         */
 
-        System.out.println("Media de la pelicula" +
+        System.out.println("Media de la pelicula " +
                 "The avengers es: " + mediaevualateuser/3);
 
 
